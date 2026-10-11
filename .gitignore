@@ -1,0 +1,30 @@
+﻿# CMake / 构建产物
+build/
+build-*/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.ninja
+.ninja_deps
+.ninja_log
+
+# Qt 生成文件
+*_autogen/
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+
+# 编译输出
+*.exe
+*.dll
+*.obj
+*.o
+*.pdb
+*.ilk
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.user
